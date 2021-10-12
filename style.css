@@ -39,6 +39,7 @@ position: relative;
     top: o;
     background-position: center;
     z-index: -1;
+    max-width: 100%;
 }
 
 .wrapper{
@@ -53,7 +54,7 @@ position: relative;
 }
 
 .wrapper img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .white{
@@ -194,4 +195,70 @@ position: relative;
 .footer{
 position: fixed;
 bottom: 0px;
+}
+
+@media screen and (max-width: 992px) {
+        .payment{
+            top:140px;
+        }
+  }
+  
+
+@media screen and (max-width: 900px) {
+
+    .payment{
+        top:132px;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .wrapper{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .payment{
+        top:140px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .wrapper{
+        width: 50%;
+    }
+    .payment{
+        top: 115px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .wrapper{
+        width: 50%;
+    }
+
+    .payment{
+        top: 130px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .wrapper{
+        width: 50%;
+    }
+
+    .payment{
+        top: 140px;
+    }
+}
+
+@media screen and (max-width: 551px) {
+
+    .wrapper{
+        width: 60%;
+    }
+
+    .payment{
+        top: 140px;
+    }
 }

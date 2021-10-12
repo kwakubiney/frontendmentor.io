@@ -262,3 +262,24 @@ bottom: 0px;
         top: 140px;
     }
 }
+
+
+@media screen and (max-width: 380px) {
+
+    .wrapper{
+        width: 69%;
+        height: 70%;
+    }
+
+    .main-heading{
+        top:35px;
+    }
+
+    .details{
+        top: 90px;
+    }
+
+    .payment{
+        top: 180px;
+    }
+}
